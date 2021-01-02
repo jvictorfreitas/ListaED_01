@@ -1,0 +1,18 @@
+Questão 1.
+Variável x criada com valor 10;
+p_x é criado como ponteiro de x;
+p_p_x criado como ponteiro do ponteiro p_x;
+p_p_p_x criado como ponteiro do ponteiro p_p_x;
+p_p_x recebe uma soma p_p_x+5, modificando o valor de x para 15;
+x recebe uma soma x+10, modificando seu valor para 25;
+p_x recebe a raiz quadrada de p_x, sendo 25 o valor repassado por p_x ser um ponteiro de x, 
+sendo agora x = 5 após o termino da pilha de execução;
+
+
+Questão 2.
+Criado ponteiros "a" e "b", e variáveis globais c = 8 e d =2;
+"a" agora é ponteiro de "c";
+"b" agora é ponteiro de "d";
+a = 5, como é ponteiro de "c" muda o seu valor para c = 5;
+"a" recebe uma soma a+10, sendo ponteiro de c muda seu valor para c=15;
+b recebe o valor de a igualando os valores da varieis globais para 15, c=15 e d=15;
